@@ -1,3 +1,8 @@
+# MsgValueToDecimalString
+
+I've been working on a project involving a user sending an amount of ether as a msg.value, and I needed to turn this value into a decimal representing the amount sent. For example, sending 0.5 ETH, or a msg.value of 500000000000000000, I wanted to be able to convert this to a string containing the decimal representation (i.e. "0.5 ETH"). I wanted to do this to have it as metadata on a dynamic NFT involved in the transaction (and obviously because of Solidity's lack of decimal support). I hope this can help anybody else who needs an easy way to do this!
+
+
 # Advanced Sample Hardhat Project
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
